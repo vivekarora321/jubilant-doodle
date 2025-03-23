@@ -1,0 +1,123 @@
+/* Center the translator container */
+.translate-app{
+    width: 83%;
+    max-width: 380px;
+    height: 90vh;
+    max-height: 650px;
+    background: linear-gradient(135deg, #A2E4F5, #C1B0FF);
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.trans-head{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -1.375rem;
+}
+
+.trans-head .arr{
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.trans-head .trans{
+  margin-right: 6.5rem;
+}
+
+
+
+.translate-app h2{
+    color:whitesmoke;
+}
+/* Center the translator container */
+.translator-container {
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style the heading */
+  .translator-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Style the textarea input */
+  .text-input {
+    width: 94%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  /* Style the select dropdown */
+  .language-select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Style the translate button */
+  .translate-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .translate-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the translated text area */
+  .translated-text {
+    margin-top: 20px;
+  }
+  
+  .translated-text h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: whitesmoke;
+  }
+  
+  /* Add vertical scrolling for long text */
+  .translated-text p {
+    font-size: 1rem;
+    background-color: #e8f5e9;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #4caf50;
+    color: #333;
+  
+    /* Enable vertical scrolling */
+    overflow-y: auto;
+    max-height: 200px; /* Limit the height */
+    white-space: pre-wrap; /* Allow text wrapping */
+  }
+
+
+  @media (max-width: 480px) {
+        .translate-app{
+            height: 100vh;
+            width: 80vw;
+            box-shadow: none;
+        }
+    }

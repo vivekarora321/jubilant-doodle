@@ -1,0 +1,184 @@
+*{
+  font-family:"Josefin Sans", sans-serif;
+}
+.app_FAQ{
+    width: 83%;
+    max-width: 380px;
+    height: 90vh;
+    max-height: 650px;
+    background: linear-gradient(135deg, #A2E4F5, #C1B0FF);
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+.faq-section {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    text-align: center;
+    margin-left: -40px;
+    margin-top: -40px;
+    border-radius: 20px;
+    width: 360px;
+}
+
+.faq-section h2{
+    font-family:"Josefin Sans", sans-serif;
+    color: whitesmoke;
+}
+
+.faq-head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -1.375rem;
+}
+
+.faq-head .arr{
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.faq-head .faqq{
+    margin-right: 6.5rem;
+}
+  .faq-list {
+    max-height: 550px; 
+    overflow-y: auto;  
+    margin-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    scrollbar-width: thin; 
+    scrollbar-color: rgba(0, 123, 255, 0.5) transparent; 
+  }
+  .faq-list::-webkit-scrollbar-track {
+    background: transparent;  
+  }
+  
+  .faq-list::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 123, 255, 0.5);
+  border-radius: 10px;     
+  border: 2px solid transparent;
+  }
+  
+  
+  .faq-list::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0); 
+  }
+  .faq-card {
+    display: flex;
+    background-color: #d6ecec;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-image img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  
+  .faq-content {
+    flex-grow: 1;
+    margin-left: 20px;
+  }
+  
+  .faq-content h3 {
+    font-size: 18px;
+    color: red;
+    margin-bottom: 5px;
+  }
+  
+  .faq-content p {
+    font-size: 14px;
+    margin: 0;
+    font-weight: 600;
+    color: #0056b3;
+  }
+  
+  .faq-content b {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: steelblue;
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 1rem;
+  }
+  
+  button:hover {
+    background-color: #444;
+  }
+  
+  /* Popup Overlay */
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /* Popup Container */
+  .popup {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .popup input {
+    display: block;
+    width: 94%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .popup button {
+    margin-right: 10px;
+  }
+  
+  /* Add Button */
+  .add-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .add-button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  @media (max-width: 480px) {
+    .app_FAQ{
+      height: 100vh;
+      width: 100vw;
+      box-shadow: none;
+    }
+    .faq-section {
+      margin-left: -1rem;
+  }
+}

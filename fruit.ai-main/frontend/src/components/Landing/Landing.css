@@ -1,0 +1,56 @@
+.land_app {
+    width: 83%;
+    max-width: 380px;
+    height: 90vh;
+    max-height: 580px;
+    background: linear-gradient(135deg, #A2E4F5, #C1B0FF);
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+
+ .head{
+    width: 350px;
+    margin: auto;
+    margin-left: -2rem;
+    cursor: pointer;
+ }
+
+ .head h1{
+    color: azure;
+    font-size: 5rem;
+ }
+ .head h2{
+    color: whitesmoke;
+ }
+ .get-started-button {
+   background-color: linear-gradient(135deg, #A2E4F5, #C1B0FF); /* Example background color */
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   font-size: 16px;
+   cursor: pointer;
+   border-radius: 5px;
+   margin-top: 20px;
+   transition: background-color 0.3s ease;
+}
+
+.get-started-button:hover {
+   background-color: green; /* Darker shade on hover */
+}
+ @media (max-width: 480px) {
+   .land_app{
+     height: 100vh;
+     width: 100vw;
+     box-shadow: none;
+   }
+   .head h1{
+      font-size:4rem;
+   }
+   
+ }
+  

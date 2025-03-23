@@ -1,0 +1,89 @@
+    .app_about {
+        width: 75%;
+        max-width: 350px;
+        height: 90vh;
+        max-height: 650px;
+        background: linear-gradient(135deg, #A2E4F5, #C1B0FF);
+        border-radius: 30px;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+.fruit-ai-container {
+    
+    width: 100%;
+    margin-left:-1.188rem;
+    margin-bottom:-1.188rem;
+    background: whitesmoke;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .about_header {
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    height: 10px;
+  }
+  .back{
+    margin-left: -17rem;
+  }
+  .icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: larger;
+    background: rgba(255, 255, 255, 0.6); /* Placeholder color */
+  }
+  
+  .blur {
+    filter: blur(5px); /* To mimic the blur effect */
+  }
+  
+  .content h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .about-button:hover {
+    background-color: #444;
+  }
+  @media (max-width: 480px) {
+    .app_about{
+        height: 100vh;
+        width: 100vw;
+        box-shadow: none;
+    }
+
+    .back{
+      margin-left: -15rem;
+      color: whitesmoke;
+    }
+    .fruit-ai-container {
+      margin-bottom: -2.188rem;
+  }
+}
